@@ -10,32 +10,24 @@ section:
   # hideTitle: true
 
 degrees:
-- name: B.Sc. in Computer Science
+- name: Bachelor of Science in Computer Science
   icon: fa-graduation-cap
   timeframe: 2002-2007
   institution:
     name: STI College - Antipolo
-    url: "#"
-  grade: #(optional)
-    scale:
-    achieved:
-    outOf:
+    url: "https://www.sti.edu"
+
 - name: B.A Film and Audio Visual Communication
   icon: fa-university
   timeframe: 2001-2002
   institution:
     name: University of the Philippines
-    url: "#"
-  grade: #(optional)
-    scale:
-    achieved:
-    outOf:
+    url: "https://up.edu.ph"
   extracurricularActivities: #(optional)
 - name: Secondary School Certificate
   icon: fa-school
   timeframe: 1997-2001
   institution:
     name: Montessori Integrated School of Antipolo
-  grade: #(optional)
-    scale:
-    outOf:
+    url: "https://montessori.edu.ph/"
+
