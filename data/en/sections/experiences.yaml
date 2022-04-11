@@ -39,6 +39,12 @@ experiences:
       - Universe developers to convert existing Universe Design Tool universes to Information Design Tool universes and make ready for consumption in the Lumira Dashboard tool.
       - Perform periodic reviews on Universes on their query performances. Review execution plans and come up with enhancements to improve overall query performance.
       - Adhere to company's Change Management principles.
+      - Currently also the Power BI Administrator for our newly launched tool
+      - Handles tenant level as well as capacity level setting changes
+      - Creates workspaces on the Premium Capacity
+      - Provides permissions to workspaces on the Premium Capacity
+      - Troubleshoots permission issues as well as gateway issues
+      - Monitors capacity usage through the Capacity Metrics report on Power BI
 
 
   - designation: COR Monitoring Supervisor
