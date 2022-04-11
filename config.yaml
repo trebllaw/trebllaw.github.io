@@ -1,0 +1,21 @@
+baseURL: https://trebllaw.xyz
+languageCode: en-us
+title: "trebllaw"
+theme: "toha"
+
+enableEmoji: true
+enableTOC: false
+
+params:
+   background: "images/background.jpg"
+
+   customMenus:
+      - name: Photos
+        url: https://photos.trebllaw.xyz
+        hideFromNavbar: false
+        showOnFooter: false
+
+   logo:
+      main: images/main-logo.png
+      inverted: images/inverted-logo.png
+      favicon: images/favicon.png

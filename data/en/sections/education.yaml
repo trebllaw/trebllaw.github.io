@@ -1,0 +1,41 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: B.Sc. in Computer Science
+  icon: fa-graduation-cap
+  timeframe: 2002-2007
+  institution:
+    name: STI College - Antipolo
+    url: "#"
+  grade: #(optional)
+    scale:
+    achieved:
+    outOf:
+- name: B.A Film and Audio Visual Communication
+  icon: fa-university
+  timeframe: 2001-2002
+  institution:
+    name: University of the Philippines
+    url: "#"
+  grade: #(optional)
+    scale:
+    achieved:
+    outOf:
+  extracurricularActivities: #(optional)
+- name: Secondary School Certificate
+  icon: fa-school
+  timeframe: 1997-2001
+  institution:
+    name: Montessori Integrated School of Antipolo
+  grade: #(optional)
+    scale:
+    outOf:

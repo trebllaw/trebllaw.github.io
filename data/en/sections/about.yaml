@@ -1,0 +1,57 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Business Objects Program Manager
+# your company information
+company:
+  name: Sitel Philippines
+  url: "https://sitel.com"
+
+# a summary about you
+summary: 'I am a human male hailing from the Philippines. Interested in photography, technology and books. I prefer staying at home but would sometimes crave the great outdoors. :)'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "wall.elicot@trebllaw.xyz"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/trebllaw"
+
+- name: Instaram
+  icon: "fab fa-instagram"
+  url: "https://instagram.com/trebllaw"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/trebllaw"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://facebook.com/trebllaw"
+
+- name: Phone
+  icon: "fas fa-phone"
+  url: "+12092330088"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"
