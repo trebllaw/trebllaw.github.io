@@ -19,3 +19,6 @@ params:
       main: images/main-logo.png
       inverted: images/inverted-logo.png
       favicon: images/favicon.png
+
+   footer:
+     enable: false

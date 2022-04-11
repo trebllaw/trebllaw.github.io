@@ -2,7 +2,7 @@
 section:
   name: Education
   id: education
-  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  template: sections/education-alt.html # Use "sections/education-alt.html for alternate template.
   enable: true
   weight: 4
   showOnNavbar: false
@@ -16,6 +16,12 @@ degrees:
   institution:
     name: STI College - Antipolo
     url: "https://www.sti.edu"
+  grade: #(optional)
+    scale: Grade Point Scale
+    achieved: 1.5
+    outOf: 5
+  extracurricularActivities: #(optional)
+    - Graduated Cum Laude
 
 - name: B.A Film and Audio Visual Communication
   icon: fa-university
@@ -30,4 +36,5 @@ degrees:
   institution:
     name: Montessori Integrated School of Antipolo
     url: "https://montessori.edu.ph/"
-
+  extracurricularActivities: #(optional)
+    - Graduated 1st Honorable Mention

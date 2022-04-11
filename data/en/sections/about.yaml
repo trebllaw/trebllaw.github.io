@@ -28,6 +28,10 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://www.github.com/trebllaw"
 
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://facebook.com/trebllaw"
+
 - name: Instaram
   icon: "fab fa-instagram"
   url: "https://instagram.com/trebllaw"
@@ -36,13 +40,9 @@ socialLinks:
   icon: "fab fa-twitter"
   url: "https://twitter.com/trebllaw"
 
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "https://facebook.com/trebllaw"
-
-- name: Phone
+- name: Call Me
   icon: "fas fa-phone"
-  url: "+12092330088"
+  url: "https://wa.me/12092330088"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
@@ -55,3 +55,23 @@ socialLinks:
 # - name: Example 2
 #   percentage: 65
 #   color: "#8b8383"
+badges:
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Hard Working
+  percentage: 85
+  color: orange
+
+- type: soft-skill-indicator
+  name: Problem Solving
+  percentage: 90
+  color: green
