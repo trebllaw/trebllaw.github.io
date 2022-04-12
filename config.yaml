@@ -15,6 +15,11 @@ params:
         hideFromNavbar: false
         showOnFooter: false
 
+      - name: Gaming
+        url: https://facebook.com/trebllawgaming
+        hideFromNavbar: false
+        showOnFooter: false
+
    logo:
       main: images/main-logo.png
       inverted: images/inverted-logo.png

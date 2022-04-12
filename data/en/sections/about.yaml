@@ -32,8 +32,12 @@ socialLinks:
   icon: "fab fa-facebook"
   url: "https://facebook.com/trebllaw"
 
+- name: Messenger
+  icon: "fa-brands fa-facebook-messenger"
+  url: "https://m.me/trebllaw"
+
 - name: Instaram
-  icon: "fab fa-instagram"
+  icon: "fab fa-instagram-square"
   url: "https://instagram.com/trebllaw"
 
 - name: Twitter
