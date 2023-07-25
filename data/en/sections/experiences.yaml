@@ -12,7 +12,7 @@ section:
 experiences:
 - company:
     name: Sitel Philippines
-    url: "https://www.sitel.com"
+    url: "https://www.foundever.com"
     location: Pasig
     # company overview
     overview:
@@ -45,6 +45,8 @@ experiences:
       - Provides permissions to workspaces on the Premium Capacity
       - Troubleshoots permission issues as well as gateway issues
       - Monitors capacity usage through the Capacity Metrics report on Power BI
+      - Creates simple dashboards for monitoring report and dashboard usage
+      - Extracts Power BI asset metadata
 
 
   - designation: COR Monitoring Supervisor
