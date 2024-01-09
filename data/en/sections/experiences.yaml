@@ -43,10 +43,10 @@ experiences:
       - Handles tenant level as well as capacity level setting changes
       - Creates workspaces on the Premium Capacity
       - Provides permissions to workspaces on the Premium Capacity
-      - Troubleshoots permission issues as well as gateway issues
+      - Troubleshoots permission issues as well as gateway connection issues
       - Monitors capacity usage through the Capacity Metrics report on Power BI
       - Creates simple dashboards for monitoring report and dashboard usage
-      - Extracts Power BI asset metadata
+      - Extracts Power BI asset metadata for audits and monitoring
 
 
   - designation: COR Monitoring Supervisor
