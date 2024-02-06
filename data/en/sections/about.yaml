@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Business Objects Program Manager
+designation: Business Intelligence Program Manager
 # your company information
 company:
   name: Foundever
@@ -40,10 +40,6 @@ socialLinks:
   icon: "fab fa-instagram-square"
   url: "https://instagram.com/trebllaw"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "https://twitter.com/trebllaw"
-
 - name: Call Me
   icon: "fas fa-phone"
   url: "https://wa.me/12092330088"
@@ -71,7 +67,7 @@ badges:
   color: yellow
 
 - type: soft-skill-indicator
-  name: Hard Working
+  name: Analysis
   percentage: 85
   color: orange
 
