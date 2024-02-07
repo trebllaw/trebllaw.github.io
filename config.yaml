@@ -27,3 +27,7 @@ params:
 
    footer:
      enable: false
+
+   features:
+     darkMode:
+       enable: true
