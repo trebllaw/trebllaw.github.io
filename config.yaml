@@ -24,10 +24,10 @@ params:
       main: images/main-logo.png
       inverted: images/inverted-logo.png
       favicon: images/favicon.png
+   
+   features:
+      darkMode:
+        enable: true
 
    footer:
-     enable: false
-
-   features:
-     darkMode:
-       enable: true
+      enable: false
