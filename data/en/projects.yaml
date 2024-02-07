@@ -20,7 +20,7 @@ buttons:
 # your projects
 projects:
 - name: Power BI Metadata collection
-logo: /images/sections/skills/python.png
+  logo: /images/sections/skills/python.png
   role: Lead Developer
   timeline: "Nov 2023 - Present"
   repo: https://github.com/trebllaw/SAP-Python
