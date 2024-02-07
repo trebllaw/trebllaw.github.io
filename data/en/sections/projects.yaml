@@ -28,6 +28,15 @@ projects:
   summary: Collection of Power BI object metadata using REST API calls via Python and Powershell for monitoring and reporting.
   tags: ["professional","powerbi","python"]
 
+- name: Python Personal Projects
+  logo: /images/sections/skills/python.png
+  role: Developer
+  timeline: "Jan 2024 - Present"
+  repo: https://github.com/trebllaw/PersonalProjects
+  #url: "https://www.example.com"
+  summary: Learning more about python by creating scripts for automation, AI and data analytics
+  tags: ["hobby","python","machine-learning"]
+
 - name: SAP BusinessObjects Migration
   logo: /images/sections/skills/sapbo.png
   role: Lead Contributor
@@ -46,11 +55,20 @@ projects:
   summary: Migrate Power BI Objects from one tenant to another using Powershell and REST API calls.
   tags: ["professional", "powerbi"]
 
-- name: Python Personal Projects
-  logo: /images/sections/skills/python.png
-  role: Developer
-  timeline: "Jan 2024 - Present"
-  repo: https://github.com/trebllaw/PersonalProjects
+- name: WASP Asset Management System
+  logo: /images/sections/skills/wasp.jpg
+  role: Implementer/Tester
+  timeline: "2017"
+  #repo: https://github.com/trebllaw/PersonalProjects
   #url: "https://www.example.com"
-  summary: Learning more about python by creating scripts for automation, AI and data analytics
-  tags: ["hobby","python","machine-learning"]
+  summary: Assisted in the initial implementation of the WASP Asset Management system by setting up the database as well as mobile application for barcode scanning of assets. Interfaced with vendor for issues seen on implementation.
+  tags: ["professional","asset","wasp"]
+
+- name: Sitel Wundercon 2017
+  logo: /images/sections/skills/wordpress.png
+  role: Developer
+  timeline: "Jan 2017"
+  #repo: https://github.com/trebllaw/PersonalProjects
+  #url: "https://www.example.com"
+  summary: Set-up a barcoded pre-registration page using Wordpress and Eventsmart plugin. Interfaced with external vendor for wristbands used on actual event and prepared a number of reports based on attendees.
+  tags: ["professional","wordpress"]
