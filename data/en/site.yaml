@@ -3,3 +3,14 @@ copyright: © 2022 Copyright.
 
 # Meta description for your site.  This will help the search engines to find your site.
 description: Landing page for trebllaw.
+
+customMenus:
+  - name: Photos
+    url: https://photos.trebllaw.xyz
+    hideFromNavbar: false
+    showOnFooter: false
+
+  - name: Gaming
+    url: https://facebook.com/trebllawgaming
+    hideFromNavbar: false
+    showOnFooter: false
