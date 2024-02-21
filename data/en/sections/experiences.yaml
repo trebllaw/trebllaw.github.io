@@ -23,27 +23,27 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-      - Business Objects XI4.x Ownership: Manage, administer, and ensure the global viability of the Sitel Business Objects XI4.2 platform. Act as the primary point of contact and subject matter expert for all international teams.
-      - Planning and Execution: Develop and execute plans for production, QA, and development system administration, production load balancing, audit security (including subject matter representation), compliance-driven BO folder structure, and Web Intelligence/Lumira dashboard deployment.
-      - Licensing and System Health: Maintain licensing compliance within concurrent/named user models. Proactively review system logs (BO Servers, CMC Administrator Cockpit, CMC Instance Manager, Tomcat) to prevent downtime and ensure website uptime.
-      - Universe Expertise: Comprehensively understand deployed universes. Collaborate with Universe Developers to enhance existing universes and create new ones as needed.
-      - Cross-Team Collaboration: Provide guidance to Report Analysts regarding mobile report optimization, work with Server Administrators on updates/drivers/SSL certificates, and support Universe Developers in transitioning from Universe Design Tool to Information Design Tool for Lumira integration.
-      - Performance and Compliance: Conduct universe query performance reviews, analyze execution plans, and implement enhancements. Adhere strictly to the company's Change Management protocols.
-      - Power BI Administration: Manage tenant-level and capacity-level Power BI settings, create Premium Capacity workspaces, and grant permissions. Troubleshoot permission/gateway issues, monitor capacity usage, create usage monitoring dashboards, extract Power BI asset metadata, and optimize reports/dashboards using DAX Studio and Tabular Editor.
+      - <strong>Business Objects XI4.x Ownership</strong> - Manage, administer, and ensure the global viability of the Sitel Business Objects XI4.2 platform. Act as the primary point of contact and subject matter expert for all international teams.
+      - <strong>Planning and Execution</strong> - Develop and execute plans for production, QA, and development system administration, production load balancing, audit security (including subject matter representation), compliance-driven BO folder structure, and Web Intelligence/Lumira dashboard deployment.
+      - <strong>Licensing and System Health</strong> - Maintain licensing compliance within concurrent/named user models. Proactively review system logs (BO Servers, CMC Administrator Cockpit, CMC Instance Manager, Tomcat) to prevent downtime and ensure website uptime.
+      - <strong>Universe Expertise</strong> - Comprehensively understand deployed universes. Collaborate with Universe Developers to enhance existing universes and create new ones as needed.
+      - <strong>Cross-Team Collaboration</strong> - Provide guidance to Report Analysts regarding mobile report optimization, work with Server Administrators on updates/drivers/SSL certificates, and support Universe Developers in transitioning from Universe Design Tool to Information Design Tool for Lumira integration.
+      - <strong>Performance and Compliance</strong> - Conduct universe query performance reviews, analyze execution plans, and implement enhancements. Adhere strictly to the company's Change Management protocols.
+      - <strong>Power BI Administration</strong> - Manage tenant-level and capacity-level Power BI settings, create Premium Capacity workspaces, and grant permissions. Troubleshoot permission/gateway issues, monitor capacity usage, create usage monitoring dashboards, extract Power BI asset metadata, and optimize reports/dashboards using DAX Studio and Tabular Editor.
       
 
   - designation: COR Monitoring Supervisor
     start: Apr 2011
     end: Jul 2019
     responsibilities:
-      - Team Leadership: Manage a team of 5 reporting analysts responsible for monitoring in-house scheduling software. Provide guidance, performance reviews, and timecard management.
-      - Technical Expertise: Offer second-level support, leading primary and secondary troubleshooting of ETLs and reports. Escalate complex issues as needed.
-      - Knowledge Transfer: Educate and mentor direct reports, ensuring thorough understanding of daily tasks and operational requirements.
-      - Cross-Team Collaboration: Coordinate with other teams to facilitate timely issue escalation and adherence to SLAs.
-      - Performance Analysis: Generate quarterly reports analyzing team performance, highlighting successes and areas for improvement.
-      - Problem-Solving: Participate in regular meetings to discuss recurring issues with the in-house scheduler and data warehouse, actively contributing to solution development.
-      - Process Improvement: Propose enhancements to the in-house scheduler software and existing workflows to optimize efficiency.
-      - Ticketing and Documentation: Manage ticket assignment within the in-house ticketing system and ensure the timely documentation of verified solutions in the knowledge management system.
+      - <strong>Team Leadership</strong> - Manage a team of 5 reporting analysts responsible for monitoring in-house scheduling software. Provide guidance, performance reviews, and timecard management.
+      - <strong>Technical Expertise</strong> - Offer second-level support, leading primary and secondary troubleshooting of ETLs and reports. Escalate complex issues as needed.
+      - <strong>Knowledge Transfer</strong> - Educate and mentor direct reports, ensuring thorough understanding of daily tasks and operational requirements.
+      - <strong>Cross-Team Collaboration</strong> - Coordinate with other teams to facilitate timely issue escalation and adherence to SLAs.
+      - <strong>Performance Analysis</strong> - Generate quarterly reports analyzing team performance, highlighting successes and areas for improvement.
+      - <strong>Problem-Solving</strong> - Participate in regular meetings to discuss recurring issues with the in-house scheduler and data warehouse, actively contributing to solution development.
+      - <strong>Process Improvement</strong> - Propose enhancements to the in-house scheduler software and existing workflows to optimize efficiency.
+      - <strong>Ticketing and Documentation</strong> - Manage ticket assignment within the in-house ticketing system and ensure the timely documentation of verified solutions in the knowledge management system.
       
   - designation: COR Monitoring Analyst
     start: Jan 2009
