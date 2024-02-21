@@ -23,55 +23,36 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-      - Manages, administer and take ownership of Sitel Business Objects XI4.2 platform and ensure the system viability globally. Serve as primary point of contact and subject mater expert for all global groups
-      - Develop and adhere to a plan on the following
-      - Managing and administration of production, QA and development systems
-      - Manages maintenance of production system load balancing
-      - Manages Audit Security of the BO Systems and provide representation as a subject matter expert.
-      - Manages compliance through proper layout of BO folders and groupings
-      - Manages deployment of dashboards using Web Intelligence as well as Lumira
-      - Ensure licensing compliance with our concurrent and named user licensing model
-      - Review logs on BO Servers, CMC Administrator Cockpit as well as CMC Instance Manager and take necessary preventive actions to avoid system downtime. Review tomcat logs and ensure website's uptime
-      - Understand all the universes deployed in the system. Work with Universe Developers to be involved in enhancements to universes and create new universes as requested.
-      - Provide knowledge and expertise to work with
-      - Reports Analysts to identify and give guidance on optimal report settings for mobile consumption
-      - Server Administrators to identify and install necessary updates / drivers and manage SSL certificates to provide secured connection to all users.
-      - Universe developers to convert existing Universe Design Tool universes to Information Design Tool universes and make ready for consumption in the Lumira Dashboard tool.
-      - Perform periodic reviews on Universes on their query performances. Review execution plans and come up with enhancements to improve overall query performance.
-      - Adhere to company's Change Management principles.
-      - Currently also the Power BI Administrator for our newly launched tool
-      - Handles tenant level as well as capacity level setting changes
-      - Creates workspaces on the Premium Capacity
-      - Provides permissions to workspaces on the Premium Capacity
-      - Troubleshoots permission issues as well as gateway connection issues
-      - Monitors capacity usage through the Capacity Metrics report on Power BI
-      - Creates simple dashboards for monitoring report and dashboard usage
-      - Extracts Power BI asset metadata for audits and monitoring
-
+      - Business Objects XI4.x Ownership: Manage, administer, and ensure the global viability of the Sitel Business Objects XI4.2 platform. Act as the primary point of contact and subject matter expert for all international teams.
+      - Planning and Execution: Develop and execute plans for production, QA, and development system administration, production load balancing, audit security (including subject matter representation), compliance-driven BO folder structure, and Web Intelligence/Lumira dashboard deployment.
+      - Licensing and System Health: Maintain licensing compliance within concurrent/named user models. Proactively review system logs (BO Servers, CMC Administrator Cockpit, CMC Instance Manager, Tomcat) to prevent downtime and ensure website uptime.
+      - Universe Expertise: Comprehensively understand deployed universes. Collaborate with Universe Developers to enhance existing universes and create new ones as needed.
+      - Cross-Team Collaboration: Provide guidance to Report Analysts regarding mobile report optimization, work with Server Administrators on updates/drivers/SSL certificates, and support Universe Developers in transitioning from Universe Design Tool to Information Design Tool for Lumira integration.
+      - Performance and Compliance: Conduct universe query performance reviews, analyze execution plans, and implement enhancements. Adhere strictly to the company's Change Management protocols.
+      - Power BI Administration: Manage tenant-level and capacity-level Power BI settings, create Premium Capacity workspaces, and grant permissions. Troubleshoot permission/gateway issues, monitor capacity usage, create usage monitoring dashboards, extract Power BI asset metadata, and optimize reports/dashboards using DAX Studio and Tabular Editor.
+      
 
   - designation: COR Monitoring Supervisor
     start: Apr 2011
     end: Jul 2019
     responsibilities:
-      - Handles a team of 5 reporting analysts that monitors an in-house scheduler software.
-      - Provides second level of support and handles primary/secondary troubleshooting of ETL’s and reports and escalate as required.
-      - Performs administrative tasks like timecard management and performance reviews.
-      - Educates direct reports and ensure that they know what there is to know about the day to day tasks which are required of them.
-      - Coordinates with other teams to ensure issues are escalated on a timely manner and SLA’s are met.
-      - Creates quarterly reports, providing highlights and lowlights for the whole team.
-      - Attends daily and bi-weekly meetings, discussing issues and potential solutions to recurring problems with either the in house scheduler and/or data warehouse.
-      - Suggests improvements on the in-house scheduler software as well as on our current processes.
-      - Monitor and assign tickets on in house ticketing system to respective team members
-      - Document verified solutions into the knowledge management system.
-
+      - Team Leadership: Manage a team of 5 reporting analysts responsible for monitoring in-house scheduling software. Provide guidance, performance reviews, and timecard management.
+      - Technical Expertise: Offer second-level support, leading primary and secondary troubleshooting of ETLs and reports. Escalate complex issues as needed.
+      - Knowledge Transfer: Educate and mentor direct reports, ensuring thorough understanding of daily tasks and operational requirements.
+      - Cross-Team Collaboration: Coordinate with other teams to facilitate timely issue escalation and adherence to SLAs.
+      - Performance Analysis: Generate quarterly reports analyzing team performance, highlighting successes and areas for improvement.
+      - Problem-Solving: Participate in regular meetings to discuss recurring issues with the in-house scheduler and data warehouse, actively contributing to solution development.
+      - Process Improvement: Propose enhancements to the in-house scheduler software and existing workflows to optimize efficiency.
+      - Ticketing and Documentation: Manage ticket assignment within the in-house ticketing system and ensure the timely documentation of verified solutions in the knowledge management system.
+      
   - designation: COR Monitoring Analyst
     start: Jan 2009
     end: Mar 2011
     responsibilities:
-      - Monitors in house scheduler software and resolves issues as they arise.
-      - Handles preliminary troubleshooting and / or escalate as required.
-      - Document verified solutions into the knowledge management system.
-      - Ensures that all contractual obligations and deliverables to clients are correct and accurate.
+      - Proactively monitors in-house scheduler software, resolving issues promptly to minimize operational disruptions.
+      - Conducts initial troubleshooting, escalating complex issues to the appropriate teams or personnel.
+      - Diligently documents verified solutions in the knowledge management system to enhance team efficiency and knowledge sharing.
+      - Meticulously reviews contractual obligations and deliverables to ensure accuracy and client satisfaction.
 
 - company:
     name: People 4 People
@@ -83,7 +64,7 @@ experiences:
     start: Jun 2007
     end: Oct 2009
     responsibilities:
-      - Responsible of data cleansing activities of data for migration to the global system of the company.
-      - Manages and updates records of vendor and customer data.
-      - Coordinates with other data teams for data alignment.
-      - Performs ad-hoc administrative and clerical work as and when needed
+      - Leads data cleansing initiatives in preparation for migration to the company's global system, ensuring data integrity and consistency.
+      - Manages and maintains accurate vendor and customer data records, ensuring up-to-date and reliable information.
+      - Collaborates effectively with other data teams to achieve alignment and standardization across business units.
+      - Provides flexible administrative and clerical support to ensure smooth team operations.
