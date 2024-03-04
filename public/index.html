@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<meta name="generator" content="Hugo 0.112.3">
-    <title>trebllaw</title>
+	<meta name="generator" content="Hugo 0.123.7"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>trebllaw.xyz</title>
     
     
       
@@ -16,18 +16,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
+<link rel="stylesheet" href="/application.82b772fb4dca3e014b67448668eed100a62c97192dc4155077b17dfd44d21faf.css" integrity="sha256-grdy&#43;03KPgFLZ0SGaO7RAKYslxktxBVQd7F9/UTSH68=" />
 
-<link rel="stylesheet" href="/css/bootstrap.min.css"/>
-<link rel="stylesheet" href="/css/layouts/main.css"/>
-<link rel="stylesheet" href="/css/navigators/navbar.css"/>
-<link rel="stylesheet" href="/css/plyr.css"/>
-<link rel="stylesheet" href="/css/flag-icon.min.css"/>
-
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
-
-
-<link rel="stylesheet" href="/fontawesome/css/all.min.css"/>
 
 
 
@@ -50,31 +40,32 @@
 
 
 
-<meta property="og:title" content="trebllaw"/>
+<meta property="og:title" content="trebllaw.xyz"/>
 <meta property="og:type" content="website"/>
 <meta property="og:description" content="Landing page for trebllaw."/>
-<meta property="og:image" content="https://trebllaw.github.io/images/avatar.png">
-<meta property="og:url" content="https://trebllaw.github.io">
+<meta property="og:image" content="/images/avatar.png">
+<meta property="og:url" content="http://localhost:1313/">
 
-    <link rel="stylesheet" href="/css/sections/home.css"/>
-    <link rel="stylesheet" href="/css/sections/about.css"/>
-    <link rel="stylesheet" href="/css/sections/skills.css"/>
-    <link rel="stylesheet" href="/css/sections/experiences.css"/>
-    <link rel="stylesheet" href="/css/sections/education.css"/>
-    <link rel="stylesheet" href="/css/sections/projects.css"/>
-    <link rel="stylesheet" href="/css/sections/recent-posts.css"/>
-    <link rel="stylesheet" href="/css/sections/achievements.css"/>
-    <link rel="stylesheet" href="/css/sections/accomplishments.css"/>
-
-    
-    <link rel="stylesheet" href="/css/style.css"/>
-    
-    
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="trebllaw.xyz"/>
+<meta name="twitter:description" content=""/>
 
 
 
 
-</head>
+
+
+<script>
+      theme = localStorage.getItem('darkmode:color-scheme') || 'system';
+      if (theme == 'system') {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          theme = 'dark';
+        } else {
+          theme = 'light';
+        }
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    </script>
+  </head>
   <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
 
     
@@ -116,18 +107,26 @@
 
 
 
+  
+
 
 
 
   
 
 
-<nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow transparent-navbar homepage" id="top-navbar">
   <div class="container">
+    
     <a class="navbar-brand" href="/">
       
         <img src="/images/inverted-logo_hu75c705bd35fd48a039a78d35e912378f_3352567_42x0_resize_box_3.png" id="logo" alt="Logo">
-      trebllaw</a>
+      trebllaw.xyz</a>
     <button
       class="navbar-toggler navbar-dark"
       id="navbar-toggler"
@@ -136,11 +135,11 @@
       data-target="#top-nav-items"
       aria-label="menu"
     >
-      <span class="navbar-toggler-icon"></span>
+      <i data-feather="menu"></i>
     </button>
 
-    <div class="collapse navbar-collapse" id="top-nav-items">
-      <ul class="navbar-nav ml-auto">
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link" href="#home">Home</a>
         </li>
@@ -152,17 +151,10 @@
             
             
             
-              
-              
-                <li class="nav-item">
-                  <a class="nav-link" href="#projects">Projects</a>
-                </li>
-              
-            
           
         
         
-          <div class="dropdown-divider" id="top-navbar-divider"></div>
+          <div id="top-navbar-divider"></div>
         
         
         
@@ -179,6 +171,26 @@
               </li>
             
         
+        
+        
+          <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+</div>
+</li>
+
         
       </ul>
     </div>
@@ -256,28 +268,27 @@
   <style>
      
     #homePageBackgroundImageDivStyled {
-        
-      background-image: url('https://trebllaw.github.io/images/background_hu59f7d9118b7fccb693544301c04045d2_174221_500x0_resize_q75_box.jpg');
+      background-image: url('/images/background_hu59f7d9118b7fccb693544301c04045d2_174221_500x0_resize_q75_box.jpg');
     }
      
     @media (min-width: 500px) and (max-width: 800px) {  
       #homePageBackgroundImageDivStyled {   
-          background-image: url('https://trebllaw.github.io/images/background_hu59f7d9118b7fccb693544301c04045d2_174221_800x0_resize_q75_box.jpg');
+          background-image: url('/images/background_hu59f7d9118b7fccb693544301c04045d2_174221_800x0_resize_q75_box.jpg');
         }
     }
     @media (min-width: 801px) and (max-width: 1200px) {  
       #homePageBackgroundImageDivStyled {   
-          background-image: url('https://trebllaw.github.io/images/background_hu59f7d9118b7fccb693544301c04045d2_174221_1200x0_resize_q75_box.jpg');
+          background-image: url('/images/background_hu59f7d9118b7fccb693544301c04045d2_174221_1200x0_resize_q75_box.jpg');
         }
     }
     @media (min-width: 1201px) and (max-width: 1500px) {  
       #homePageBackgroundImageDivStyled {   
-          background-image: url('https://trebllaw.github.io/images/background_hu59f7d9118b7fccb693544301c04045d2_174221_1500x0_resize_q75_box.jpg');
+          background-image: url('/images/background_hu59f7d9118b7fccb693544301c04045d2_174221_1500x0_resize_q75_box.jpg');
         }
     }
     @media (min-width: 1501px) {  
       #homePageBackgroundImageDivStyled {   
-          background-image: url('https://trebllaw.github.io/images/background.jpg');
+          background-image: url('/images/background.jpg');
         }
     }
     </style>
@@ -316,7 +327,7 @@
         
           
         
-        <a href="#about" aria-label="Read More - Don"><i class="arrow bounce fa fa-chevron-down"></i></a>
+        <a href="#about" class="arrow-center" aria-label="Read More - Don"><i class="arrow bounce fa fa-chevron-down"></i></a>
       
     
   </div>
@@ -331,7 +342,7 @@
       
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -347,7 +358,7 @@
     
     
      <div class="col-sm-6"> 
-      <h3 class="p-1">Wallbert Elicot</h3>
+      <h3 class="p-1">Wallbert Don Elicot</h3>
       
       <h5 class="p-1">
         Business Intelligence Program Manager
@@ -401,6 +412,7 @@
         </ul>
       </div>
       
+      
     </div>
     
     <div class="col-sm-6 pt-5 pl-md-4 pl-sm-3 pt-sm-0">
@@ -411,16 +423,22 @@
     
     
     
+    
+    
+    
+        
+        
+    
     <div class="circular-progress blue">
     <span class="circular-progress-left">
         <span
-        class="circular-progress-bar circular-progress-percentage-85"
+        class="circular-progress-bar circular-progress-percentage-35  circular-progress-percentage-50-delay"
         
         ></span>
     </span>
     <span class="circular-progress-right">
         <span
-        class="circular-progress-bar"
+        class="circular-progress-bar circular-progress-percentage-50"
         
         ></span>
     </span>
@@ -435,16 +453,22 @@
     
     
     
+    
+    
+    
+        
+        
+    
     <div class="circular-progress yellow">
     <span class="circular-progress-left">
         <span
-        class="circular-progress-bar circular-progress-percentage-90"
+        class="circular-progress-bar circular-progress-percentage-40  circular-progress-percentage-50-delay"
         
         ></span>
     </span>
     <span class="circular-progress-right">
         <span
-        class="circular-progress-bar"
+        class="circular-progress-bar circular-progress-percentage-50"
         
         ></span>
     </span>
@@ -459,16 +483,22 @@
     
     
     
+    
+    
+    
+        
+        
+    
     <div class="circular-progress orange">
     <span class="circular-progress-left">
         <span
-        class="circular-progress-bar circular-progress-percentage-85"
+        class="circular-progress-bar circular-progress-percentage-35  circular-progress-percentage-50-delay"
         
         ></span>
     </span>
     <span class="circular-progress-right">
         <span
-        class="circular-progress-bar"
+        class="circular-progress-bar circular-progress-percentage-50"
         
         ></span>
     </span>
@@ -483,16 +513,22 @@
     
     
     
+    
+    
+    
+        
+        
+    
     <div class="circular-progress green">
     <span class="circular-progress-left">
         <span
-        class="circular-progress-bar circular-progress-percentage-90"
+        class="circular-progress-bar circular-progress-percentage-40  circular-progress-percentage-50-delay"
         
         ></span>
     </span>
     <span class="circular-progress-right">
         <span
-        class="circular-progress-bar"
+        class="circular-progress-bar circular-progress-percentage-50"
         
         ></span>
     </span>
@@ -518,7 +554,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-dimmed">
+          <div class="container-fluid section-holder d-flex bg-secondary">
             
 
   
@@ -533,7 +569,7 @@
     <div class="row" id="primary-skills">
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://www.sap.com/products/bi-platform.html" title="SAP Business Objects" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://www.sap.com/products/bi-platform.html" title="SAP Business Objects" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -556,7 +592,7 @@
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://powerbi.microsoft.com/en-us/" title="Power BI" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://powerbi.microsoft.com/en-us/" title="Power BI" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -579,7 +615,7 @@
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://www.python.org/" title="Python" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://www.python.org/" title="Python" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -602,7 +638,7 @@
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://office.com" title="Microsoft Office Apps" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://office.com" title="Microsoft Office Apps" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -625,7 +661,7 @@
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://www.microsoft.com/en-us/windows" title="Windows" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://www.microsoft.com/en-us/windows" title="Windows" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -648,7 +684,7 @@
 
       
         <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" href="https://git-scm.com/" title="Git" target="_blank" rel="noopener">
+  <a class="text-decoration-none" href="https://git-scm.com/" title="Git" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
@@ -682,7 +718,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -703,18 +739,21 @@
   <div class="circle font-weight-bold">1</div>
 </div>
 
-         
-  <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
-        <h5><a href=https://www.foundever.com title="Foundever" target="_blank" rel="noopener">Foundever</a></h5>
-
+            
         
         
         
+        <div class="company-heading">
+            <h5><a href=https://www.foundever.com title="Foundever" target="_blank" rel="noopener">Foundever</a></h5>
+            <p class="text-muted">
+                Jan 2009 - Present
+            </p>
+        </div>
         <p class="text-muted">
-            Jan 2009 - Present,
-            Pasig
+            <i class="fa-solid fa-location-dot"></i> Pasig
         </p>
         
         <p></p>
@@ -722,107 +761,82 @@
     
     <div class="positions">
     
-        <h6 class="designation">Business Intelligence Program Manager</h6>
-        <p class="text-muted">Aug 2019 -  Present </p>
+        <div class="company-heading">
+            <h5 class="designation">Business Intelligence Program Manager</h5>
+            <p class="text-muted">Aug 2019 -  Present </p>
+        </div>
         
-        <ul class="justify-content-around">
         
-            <li>Manages, administer and take ownership of Sitel Business Objects XI4.2 platform and ensure the system viability globally. Serve as primary point of contact and subject mater expert for all global groups</li>
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li><strong>Business Objects XI4.x Ownership</strong> - Manage, administer, and ensure the global viability of the Sitel Business Objects XI4.2 platform. Act as the primary point of contact and subject matter expert for all international teams.</li>
+                
+                    <li><strong>Planning and Execution</strong> - Develop and execute plans for production, QA, and development system administration, production load balancing, audit security (including subject matter representation), compliance-driven BO folder structure, and Web Intelligence/Lumira dashboard deployment.</li>
+                
+                    <li><strong>Licensing and System Health</strong> - Maintain licensing compliance within concurrent/named user models. Proactively review system logs (BO Servers, CMC Administrator Cockpit, CMC Instance Manager, Tomcat) to prevent downtime and ensure website uptime.</li>
+                
+                    <li><strong>Universe Expertise</strong> - Comprehensively understand deployed universes. Collaborate with Universe Developers to enhance existing universes and create new ones as needed.</li>
+                
+                    <li><strong>Cross-Team Collaboration</strong> - Provide guidance to Report Analysts regarding mobile report optimization, work with Server Administrators on updates/drivers/SSL certificates, and support Universe Developers in transitioning from Universe Design Tool to Information Design Tool for Lumira integration.</li>
+                
+                    <li><strong>Performance and Compliance</strong> - Conduct universe query performance reviews, analyze execution plans, and implement enhancements. Adhere strictly to the company&rsquo;s Change Management protocols.</li>
+                
+                    <li><strong>Power BI Administration</strong> - Manage tenant-level and capacity-level Power BI settings, create Premium Capacity workspaces, and grant permissions. Troubleshoot permission/gateway issues, monitor capacity usage, create usage monitoring dashboards, extract Power BI asset metadata, and optimize reports/dashboards using DAX Studio and Tabular Editor.</li>
+                
+            </ul>
         
-            <li>Develop and adhere to a plan on the following</li>
-        
-            <li>Managing and administration of production, QA and development systems</li>
-        
-            <li>Manages maintenance of production system load balancing</li>
-        
-            <li>Manages Audit Security of the BO Systems and provide representation as a subject matter expert.</li>
-        
-            <li>Manages compliance through proper layout of BO folders and groupings</li>
-        
-            <li>Manages deployment of dashboards using Web Intelligence as well as Lumira</li>
-        
-            <li>Ensure licensing compliance with our concurrent and named user licensing model</li>
-        
-            <li>Review logs on BO Servers, CMC Administrator Cockpit as well as CMC Instance Manager and take necessary preventive actions to avoid system downtime. Review tomcat logs and ensure website&rsquo;s uptime</li>
-        
-            <li>Understand all the universes deployed in the system. Work with Universe Developers to be involved in enhancements to universes and create new universes as requested.</li>
-        
-            <li>Provide knowledge and expertise to work with</li>
-        
-            <li>Reports Analysts to identify and give guidance on optimal report settings for mobile consumption</li>
-        
-            <li>Server Administrators to identify and install necessary updates / drivers and manage SSL certificates to provide secured connection to all users.</li>
-        
-            <li>Universe developers to convert existing Universe Design Tool universes to Information Design Tool universes and make ready for consumption in the Lumira Dashboard tool.</li>
-        
-            <li>Perform periodic reviews on Universes on their query performances. Review execution plans and come up with enhancements to improve overall query performance.</li>
-        
-            <li>Adhere to company&rsquo;s Change Management principles.</li>
-        
-            <li>Currently also the Power BI Administrator for our newly launched tool</li>
-        
-            <li>Handles tenant level as well as capacity level setting changes</li>
-        
-            <li>Creates workspaces on the Premium Capacity</li>
-        
-            <li>Provides permissions to workspaces on the Premium Capacity</li>
-        
-            <li>Troubleshoots permission issues as well as gateway connection issues</li>
-        
-            <li>Monitors capacity usage through the Capacity Metrics report on Power BI</li>
-        
-            <li>Creates simple dashboards for monitoring report and dashboard usage</li>
-        
-            <li>Extracts Power BI asset metadata for audits and monitoring</li>
-        
-        </ul>
     
-        <h6 class="designation">COR Monitoring Supervisor</h6>
-        <p class="text-muted">Apr 2011 -  Jul 2019 </p>
+        <div class="company-heading">
+            <h5 class="designation">COR Monitoring Supervisor</h5>
+            <p class="text-muted">Apr 2011 -  Jul 2019 </p>
+        </div>
         
-        <ul class="justify-content-around">
         
-            <li>Handles a team of 5 reporting analysts that monitors an in-house scheduler software.</li>
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li><strong>Team Leadership</strong> - Manage a team of 5 reporting analysts responsible for monitoring in-house scheduling software. Provide guidance, performance reviews, and timecard management.</li>
+                
+                    <li><strong>Technical Expertise</strong> - Offer second-level support, leading primary and secondary troubleshooting of ETLs and reports. Escalate complex issues as needed.</li>
+                
+                    <li><strong>Knowledge Transfer</strong> - Educate and mentor direct reports, ensuring thorough understanding of daily tasks and operational requirements.</li>
+                
+                    <li><strong>Cross-Team Collaboration</strong> - Coordinate with other teams to facilitate timely issue escalation and adherence to SLAs.</li>
+                
+                    <li><strong>Performance Analysis</strong> - Generate quarterly reports analyzing team performance, highlighting successes and areas for improvement.</li>
+                
+                    <li><strong>Problem-Solving</strong> - Participate in regular meetings to discuss recurring issues with the in-house scheduler and data warehouse, actively contributing to solution development.</li>
+                
+                    <li><strong>Process Improvement</strong> - Propose enhancements to the in-house scheduler software and existing workflows to optimize efficiency.</li>
+                
+                    <li><strong>Ticketing and Documentation</strong> - Manage ticket assignment within the in-house ticketing system and ensure the timely documentation of verified solutions in the knowledge management system.</li>
+                
+            </ul>
         
-            <li>Provides second level of support and handles primary/secondary troubleshooting of ETL’s and reports and escalate as required.</li>
-        
-            <li>Performs administrative tasks like timecard management and performance reviews.</li>
-        
-            <li>Educates direct reports and ensure that they know what there is to know about the day to day tasks which are required of them.</li>
-        
-            <li>Coordinates with other teams to ensure issues are escalated on a timely manner and SLA’s are met.</li>
-        
-            <li>Creates quarterly reports, providing highlights and lowlights for the whole team.</li>
-        
-            <li>Attends daily and bi-weekly meetings, discussing issues and potential solutions to recurring problems with either the in house scheduler and/or data warehouse.</li>
-        
-            <li>Suggests improvements on the in-house scheduler software as well as on our current processes.</li>
-        
-            <li>Monitor and assign tickets on in house ticketing system to respective team members</li>
-        
-            <li>Document verified solutions into the knowledge management system.</li>
-        
-        </ul>
     
-        <h6 class="designation">COR Monitoring Analyst</h6>
-        <p class="text-muted">Jan 2009 -  Mar 2011 </p>
+        <div class="company-heading">
+            <h5 class="designation">COR Monitoring Analyst</h5>
+            <p class="text-muted">Jan 2009 -  Mar 2011 </p>
+        </div>
         
-        <ul class="justify-content-around">
         
-            <li>Monitors in house scheduler software and resolves issues as they arise.</li>
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Proactively monitors in-house scheduler software, resolving issues promptly to minimize operational disruptions.</li>
+                
+                    <li>Conducts initial troubleshooting, escalating complex issues to the appropriate teams or personnel.</li>
+                
+                    <li>Diligently documents verified solutions in the knowledge management system to enhance team efficiency and knowledge sharing.</li>
+                
+                    <li>Meticulously reviews contractual obligations and deliverables to ensure accuracy and client satisfaction.</li>
+                
+            </ul>
         
-            <li>Handles preliminary troubleshooting and / or escalate as required.</li>
-        
-            <li>Document verified solutions into the knowledge management system.</li>
-        
-            <li>Ensures that all contractual obligations and deliverables to clients are correct and accurate.</li>
-        
-        </ul>
     
     </div>
 </div>
-
-
 
        </div>
      
@@ -843,38 +857,50 @@
    
      
        <div class="row align-items-center justify-content-end d-flex">
-         
-  <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
+            
         
-        <h5>Project Database Assistant (assigned to Shell Philippines)</h5>
-        <h6>People 4 People</h6>
         
-        <p class="text-muted">Jun 2007 - Oct 2009,
-            Makati
+        
+        <div class="company-heading">
+            <h5>People 4 People</h5>
+            <p class="text-muted">
+                Jun 2007 - Oct 2009
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Makati
         </p>
+        
+        <p></p>
     </div>
     
-    <p></p>
+    <div class="positions">
     
+        <div class="company-heading">
+            <h5 class="designation">Project Database Assistant (assigned to Shell Philippines)</h5>
+            <p class="text-muted">Jun 2007 -  Oct 2009 </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsibilities:</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Leads data cleansing initiatives in preparation for migration to the company&rsquo;s global system, ensuring data integrity and consistency.</li>
+                
+                    <li>Manages and maintains accurate vendor and customer data records, ensuring up-to-date and reliable information.</li>
+                
+                    <li>Collaborates effectively with other data teams to achieve alignment and standardization across business units.</li>
+                
+                    <li>Provides flexible administrative and clerical support to ensure smooth team operations.</li>
+                
+            </ul>
+        
     
-    <h6 class="text-muted">Responsibilities:</h6>
-    <ul class="justify-content-around">
-    
-        <li>Responsible of data cleansing activities of data for migration to the global system of the company.</li>
-    
-        <li>Manages and updates records of vendor and customer data.</li>
-    
-        <li>Coordinates with other data teams for data alignment.</li>
-    
-        <li>Performs ad-hoc administrative and clerical work as and when needed</li>
-    
-    </ul>
-    
+    </div>
 </div>
-
-
 
          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
   <div class="circle font-weight-bold">2</div>
@@ -895,7 +921,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-dimmed">
+          <div class="container-fluid section-holder d-flex bg-secondary">
             
 
 
@@ -907,13 +933,16 @@
         <span id="education"></span>Education</h1>
   
 
-    <div class="container">
-        <table class="education-info-table">
-            <tbody>
-                
-                <tr>
-                    <td class="icon">
-                        <div class="hline"></div>
+  <div class="container">
+    <table class="education-info-table">
+        <tbody>
+            
+            
+            <tr>
+                <td class="icon">
+                    
+                    <div class="hline"></div>
+                    
                         <div class="icon-holder">
                             <i class="fas fa-graduation-cap"></i>
                         </div>
@@ -923,6 +952,10 @@
                     </td>
                     <td class="details">
                         <div class="degree-info card">
+
+                            
+                            
+
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
                                     
@@ -933,19 +966,20 @@
                             </div>
                             <h6>Bachelor of Science in Computer Science</h6>
                             
-                                <h6><span>Grade Point Scale: </span><span>1.5</span> out of <span>5</span></h6>
+                                <h6 class="text-heading"><span>Grade Point Scale: </span><span>1.5</span> out of <span>5</span></h6>
                             
                             
                             
                             
                             <div class="extracurricular-activities">
-                                <h6 class="text-muted">Extracurricular Activities</h6>
+                                <h6 class="text-heading">Extracurricular Activities:</h6>
                                 <ul>
                                 
                                     <li>Graduated Cum Laude</li>
                                 
                                 </ul>
                             </div>
+                            
                             
                         </div>
                     </td>
@@ -960,9 +994,11 @@
                     </td>
                 </tr>
                 
-                <tr>
-                    <td class="icon">
-                        <div class="hline"></div>
+            <tr>
+                <td class="icon">
+                    
+                    <div class="hline"></div>
+                    
                         <div class="icon-holder">
                             <i class="fas fa-university"></i>
                         </div>
@@ -972,6 +1008,10 @@
                     </td>
                     <td class="details">
                         <div class="degree-info card">
+
+                            
+                            
+
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
                                     
@@ -985,6 +1025,7 @@
                             
                             
                             
+                            
                         </div>
                     </td>
                     <td class="line">
@@ -998,9 +1039,11 @@
                     </td>
                 </tr>
                 
-                <tr>
-                    <td class="icon">
-                        <div class="hline"></div>
+            <tr>
+                <td class="icon">
+                    
+                    <div class="hline"></div>
+                    
                         <div class="icon-holder">
                             <i class="fas fa-school"></i>
                         </div>
@@ -1010,6 +1053,10 @@
                     </td>
                     <td class="details">
                         <div class="degree-info card">
+
+                            
+                            
+
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
                                     
@@ -1024,13 +1071,14 @@
                             
                             
                             <div class="extracurricular-activities">
-                                <h6 class="text-muted">Extracurricular Activities</h6>
+                                <h6 class="text-heading">Extracurricular Activities:</h6>
                                 <ul>
                                 
                                     <li>Graduated 1st Honorable Mention</li>
                                 
                                 </ul>
                             </div>
+                            
                             
                         </div>
                     </td>
@@ -1058,7 +1106,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -1072,15 +1120,15 @@
   <div class="container ml-auto text-center">
     <div class="btn-group flex-wrap" role="group" id="project-filter-buttons">
       
-      <button type="button" class="btn btn-dark" data-filter="all">
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="all">
         All
       </button>
       
-      <button type="button" class="btn btn-dark" data-filter="professional">
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="professional">
         Professional
       </button>
       
-      <button type="button" class="btn btn-dark" data-filter="hobby">
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="hobby">
         Hobby
       </button>
       
@@ -1141,8 +1189,9 @@
           
           <div class="project-btn-holder">
             
+            
             <a
-              class="github-button-inactive project-btn"
+              class="github-button project-btn d-none"
               href="https://github.com/trebllaw/SAP-Python"
               data-icon="octicon-standard"
               data-show-count="true"
@@ -1210,8 +1259,9 @@
           
           <div class="project-btn-holder">
             
+            
             <a
-              class="github-button-inactive project-btn"
+              class="github-button project-btn d-none"
               href="https://github.com/trebllaw/PersonalProjects"
               data-icon="octicon-standard"
               data-show-count="true"
@@ -1473,20 +1523,8 @@
 
 
 
-    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="/js/popper.min.js"></script>
-<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script src="/application.d66d102b1a3754ec5b6f5d5542743055c8ed648289e67a1998b341c962a29022.js" integrity="sha256-1m0QKxo3VOxbb11VQnQwVcjtZIKJ5noZmLNByWKikCI=" defer></script>
 
-<script type="text/javascript" src="/js/navbar.js"></script>
-<script type="text/javascript" src="/js/plyr.js"></script>
-<script type="text/javascript" src="/js/main.js"></script>
-
-
-    
-    <script src="/js/itype.min.js"></script>
-    <script src="/js/github-button.js"></script>
-    <script src="/js/home.js"></script>
-    <script src="/js/jquery.filterizr.min.js"></script>
 
     
 </body>
