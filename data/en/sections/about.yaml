@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Business Intelligence Program Manager
+designation: Business Intelligence Manager
 # your company information
 company:
   name: Foundever
@@ -75,3 +75,8 @@ badges:
   name: Problem Solving
   percentage: 90
   color: green
+
+- type: soft-skill-indicator
+  name: Communication
+  percentage: 80
+  color: red
