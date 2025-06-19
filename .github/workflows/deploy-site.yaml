@@ -19,9 +19,6 @@ jobs:
         hugo-version: 'latest'
         extended: true
 
-    - name: Update Hugo Modules
-      run: hugo mod tidy
-
     - name: Setup Node
       uses: actions/setup-node@v4
       with:
