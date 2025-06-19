@@ -13,7 +13,7 @@ experiences:
 - company:
     name: Foundever
     url: "https://www.foundever.com"
-    location: Pasig
+    location: Ortigas, Pasig
     # company overview
     overview: "At Foundever, we make things simple. Put simply, our mission is to be the solutions and the team behind the best experiences for the worlds leading brands. Wherever and whenever needed. Of course, we know simple is rarely easy. Thats why we invest in creating innovative and human-centric capabilities, designed to deliver competitive advantage for you in the moments that matter."
   positions:
@@ -57,7 +57,7 @@ experiences:
 - company:
     name: People 4 People
     #url: "https://www.preexample.com"
-    location: Makati
+    location: Valero, Makati
     overview: Agency
   positions:
   - designation: Project Database Assistant (assigned to Shell Philippines)
