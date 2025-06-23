@@ -19,6 +19,15 @@ buttons:
 
 # your projects
 projects:
+- name: SAP Business Objects UNV to UNX conversion
+  logo: /images/sections/skills/sapbo.png
+  role: Lead Implementer
+  timeline: "June 2025 - Present"
+  #repo: https://github.com/trebllaw/SAP-Python
+  #url: "https://www.example.com"
+  summary: Convertion of UNV univereses to UNX in preparation for migration to SAP Business Objects 2025 using the 360Eyes and 360View of Wiiisdom. This project also aims to repoint all reports to the converted universes.
+  tags: ["professional","SAP","wiiisdom"]
+
 - name: Power BI Metadata collection
   logo: /images/sections/skills/python.png
   role: Lead Developer
