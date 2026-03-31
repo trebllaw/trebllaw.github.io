@@ -16,6 +16,11 @@ skills:
   summary: "Capable of Power BI Service tenant/capacity administration. Works with troubleshooting capacity issues as well as troubleshooting reports/dataflows/dataset issues."
   url: "https://powerbi.microsoft.com/en-us/"
 
+- name: Microsoft
+  logo: /images/sections/skills/powerbi.png
+  summary: "Fabric Administration and  monitoring. Configuring workloads as well as creating automation scripts using Notebooks and Pipelines"
+  url: "https://powerbi.microsoft.com/en-us/"
+
 - name: Python
   logo: /images/sections/skills/python.png
   summary: "Intermediate level knowledge. Used as main language for personal projects."
