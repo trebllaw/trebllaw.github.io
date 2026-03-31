@@ -19,13 +19,22 @@ buttons:
 
 # your projects
 projects:
+- name: Power BI to Microsoft Fabric Enablement
+  logo: /images/sections/skills/powerbi.png
+  role: Lead Implementer
+  timeline: "June 2025 - Present"
+  #repo: https://github.com/trebllaw/SAP-Python
+  #url: "https://www.example.com"
+  summary: Led evaluation of Microsoft Fabric use cases to assess organizational value, identify high-impact integrations, and inform data platform strategy. Developed Fabric implementation roadmaps and adoption plans grounded in architectural best practices, industry standards, and detailed financial impact analysis aligned with existing Power BI environments. Established enterprise-wide data management guidelines and best practices to enable secure, scalable, and cost-optimized Fabric deployments across reporting teams.
+  tags: ["professional","fabric","microsoft"]
+
 - name: SAP Business Objects UNV to UNX conversion
   logo: /images/sections/skills/sapbo.png
   role: Lead Implementer
   timeline: "June 2025 - Present"
   #repo: https://github.com/trebllaw/SAP-Python
   #url: "https://www.example.com"
-  summary: Convertion of UNV univereses to UNX in preparation for migration to SAP Business Objects 2025 using the 360Eyes and 360View of Wiiisdom. This project also aims to repoint all reports to the converted universes.
+  summary: Analyzed SAP BusinessObjects metadata using Wiiisdom 360 Suite to assess platform usage and guide migration strategy, while partnering with Universe Developers to modernize legacy universes and ensure version compatibility. Designed and validated large-scale automation to repoint over 15,000 reports to converted universes, preserving data integrity and significantly reducing conversion effort and risk.
   tags: ["professional","SAP","wiiisdom"]
 
 - name: Power BI Metadata collection
@@ -64,20 +73,11 @@ projects:
   summary: Migrate Power BI Objects from one tenant to another using Powershell and REST API calls.
   tags: ["professional", "powerbi"]
 
-- name: WASP Asset Management System
+- name: Social Media & Registration Integrations
   logo: /images/sections/skills/wasp.jpg
   role: Implementer/Tester
   timeline: "2017"
   #repo: https://github.com/trebllaw/PersonalProjects
   #url: "https://www.example.com"
-  summary: Assisted in the initial implementation of the WASP Asset Management system by setting up the database as well as mobile application for barcode scanning of assets. Interfaced with vendor for issues seen on implementation.
-  tags: ["professional","asset","wasp"]
-
-- name: Sitel Wundercon 2017
-  logo: /images/sections/skills/wordpress.png
-  role: Developer
-  timeline: "Jan 2017"
-  #repo: https://github.com/trebllaw/PersonalProjects
-  #url: "https://www.example.com"
-  summary: Set-up a barcoded pre-registration page using Wordpress and Eventsmart plugin. Interfaced with external vendor for wristbands used on actual event and prepared a number of reports based on attendees.
-  tags: ["professional","wordpress"]
+  summary: Implemented digital solutions including a Facebook Messenger chatbot for automated lead generation and analytics, along with mobile-friendly web apps to manage event registration and attendee reporting. Deployed and administered the WASP Asset Management System, handling SQL database management and mobile configuration to support efficient asset tagging and tracking.
+  tags: ["professional","asset","wasp","wordpress","facebook","chatbot"]

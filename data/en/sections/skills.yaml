@@ -6,37 +6,22 @@ section:
   showOnNavbar: false
 
 skills:
-- name: SAP Business Objects
+- name: BI & Analytics
   logo: /images/sections/skills/sapbo.png
-  summary: "Capable of deploying, upgrading and managing on premise SAP Business Objects Application. Administer security, perform maintenance and monitor processes."
-  url: "https://www.sap.com/products/bi-platform.html"
+  summary: "Microsoft Fabric, Power BI, SAP BusinessObjects (XI4.x), Data Analytics, Data Governance, DAX Studio, Tabular Editor"
 
-- name: Power BI
+- name: Integration & Migration
   logo: /images/sections/skills/powerbi.png
-  summary: "Capable of Power BI Service tenant/capacity administration. Works with troubleshooting capacity issues as well as troubleshooting reports/dataflows/dataset issues."
-  url: "https://powerbi.microsoft.com/en-us/"
+  summary: "Wiiisdom 360 Suite, Universe Migration (.unv to .unx), Tenant Migration, Metadata Extraction, Data Modeling"
 
-- name: Microsoft
+- name: Database & Scripting
   logo: /images/sections/skills/powerbi.png
-  summary: "Fabric Administration and  monitoring. Configuring workloads as well as creating automation scripts using Notebooks and Pipelines"
-  url: "https://powerbi.microsoft.com/en-us/"
+  summary: "SQL (T-SQL), PowerShell, Python, REST API (Power BI Scanner API), SOAPUI, Power Automate, Visual Basic, C#"
 
-- name: Python
+- name: Leadership & Strategy
   logo: /images/sections/skills/python.png
-  summary: "Intermediate level knowledge. Used as main language for personal projects."
-  url: "https://www.python.org/"
+  summary: "Roadmap Development, Change Management, Cross-Team Collaboration, Training Material Development, Service Level Agreements (SLAs)"
 
-- name: Microsoft Office Apps
-  logo: /images/sections/skills/office.png
-  summary: "Advanced knowledge on most Microsoft Office apps."
-  url: "https://office.com"
-
-- name: Windows
-  logo: /images/sections/skills/windows.png
-  summary: "Using as the main operating system. Capable of writing automation batch scripts"
-  url: "https://www.microsoft.com/en-us/windows"
-
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+- name: AI & Augmented Development
+  logo: /images/sections/skills/python.png
+  summary: "Applied AI-assisted tools including Microsoft Copilot, Gemini, Claude Code, VS Code, and Cursor to accelerate development, enhance code quality, support analytics workflows, and improve productivity across data engineering, BI, and automation initiatives."
